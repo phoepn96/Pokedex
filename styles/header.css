@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "pokemon";
+    src: url(../assets/fonts/PokemonSolid.ttf);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../assets/background/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+}
+
+#pokeballHeader{
+    width: 120px;
+    scale: 1.0;
+
+    transition-property: scale, transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#pokeballHeader:hover{
+    scale:1.2;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+#pokeballHeader:active{
+    scale:1.0;
+    transform: rotate(720deg);
+}
+
+header h1{
+    font-family: "pokemon";
+    color:rgb(207, 204, 22);
+    font-size: 64px;
+    text-decoration: wavy;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 -1px 4px #0609e7, 0 -2px 10px rgb(35, 22, 219), 0 -10px 20px #ec0909, 0 -18px 40px rgb(185, 14, 14), 0px -3px 6px rgba(241, 21, 5, 0);
+    margin-bottom: 200px;
+    height: 150px;
+}
+
+header span{
+    font-size: 100px;
+    margin: 0;
+}
+
+#searchInput{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+}
