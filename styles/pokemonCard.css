@@ -1,0 +1,59 @@
+.pokemonCardDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px, solid, rgb(238, 172, 31);
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+
+}
+
+.headlineContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pokemonImg{
+    width: 300px;
+    height: 300px;
+    border: 4px solid silver;
+    border-radius: 4px;
+    margin:0 5px;
+    
+}
+
+.typeDiv{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100;
+    
+}
+
+.typeImg{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.moveDiv{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.moveDescrDiv{
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
